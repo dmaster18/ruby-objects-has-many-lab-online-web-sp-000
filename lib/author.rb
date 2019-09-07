@@ -17,7 +17,7 @@ class Author
   end
   
   def posts
-    @posts = Post.all.select {|post_object| post_object if song.artist == self}
+    @posts = Post.all.select {|post_object| post_object if post_object.artist == self}
     @songs
   end
   
