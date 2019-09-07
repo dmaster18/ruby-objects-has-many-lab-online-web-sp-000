@@ -12,7 +12,7 @@ class Post
     @@all
   end
   
-  def author
+  def author()
     author = Author.new(author_name)
     self.author = author
   end
