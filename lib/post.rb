@@ -12,7 +12,7 @@ class Post
     @@all
   end
   
-  def assign_author(artist)
+  def assign_author(author)
     artist = Artist.new(artist)
     @artist = artist
     self.artist = @artist
