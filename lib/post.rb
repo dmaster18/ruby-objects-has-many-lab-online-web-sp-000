@@ -12,9 +12,10 @@ class Post
     @@all
   end
   
-  def author(author)
-    author = Author.new(author)
-    self.author = author
+  def assign_artist(artist)
+    artist = Artist.new(artist)
+    @artist = artist
+    self.artist = @artist
   end
   
   def author_name
