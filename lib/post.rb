@@ -13,7 +13,7 @@ class Post
   end
   
   def assign_author(author)
-    artist = Artist.new(artist)
+    artist = Artist.new(author)
     @artist = artist
     self.artist = @artist
   end
