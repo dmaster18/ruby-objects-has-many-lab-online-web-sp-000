@@ -14,7 +14,7 @@ class Song
   
   def assign_artist(artist)
     artist = Artist.new(artist)
-    @artist = 
+    @artist = artist
     self.artist = artist
   end
   
