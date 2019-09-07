@@ -16,8 +16,8 @@ class Author
     add_post(title)
   end
   
-  def songs
-    @songs = Song.all.select {|song| song if song.artist == self}
+  def posts
+    @so = Song.all.select {|song| song if song.artist == self}
     @songs
   end
   
