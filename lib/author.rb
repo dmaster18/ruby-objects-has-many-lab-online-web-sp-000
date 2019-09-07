@@ -18,7 +18,7 @@ class Author
   
   def posts
     @posts = Post.all.select {|post_object| post_object if post_object.author == self}
-    @songs
+    @posts
   end
   
   def self.post_count
