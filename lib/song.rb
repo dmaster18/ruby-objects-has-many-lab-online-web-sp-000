@@ -12,7 +12,11 @@ class Song
     @@all
   end
   
-
+  def assign_artist(artist)
+    artist = Artist.new(artist)
+    @artist = artist
+    self.artist = @artist
+  end
   
   def artist_name
     if self.artist != nil
