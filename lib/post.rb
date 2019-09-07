@@ -23,6 +23,7 @@ class Post
       author_name
     else
       nil
+    end
   end
   
 end

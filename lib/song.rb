@@ -23,6 +23,7 @@ class Song
       artist_name
     else
       nil
+    end
   end
   
 end
