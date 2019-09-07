@@ -14,7 +14,7 @@ class Post
   
   def assign_author(author)
     author = Artist.new(author)
-    @artist = artist
+    @author = artist
     self.artist = @artist
   end
   
