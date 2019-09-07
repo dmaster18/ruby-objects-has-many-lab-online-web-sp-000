@@ -7,8 +7,8 @@ class Author
   end
     
   def add_post(post_object)
-    post_object.author = self
     @posts << post_object
+        post_object.author = self
   end
   
   def add_post_by_title(title)
