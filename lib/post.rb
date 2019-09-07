@@ -19,7 +19,7 @@ class Post
   end
   
   def author_name
-    if self.author == true
+    if self.author != true
       author_name = self.author.name
       author_name
     else
